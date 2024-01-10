@@ -91,7 +91,7 @@ int main() {
 
     std::cout << "First fill sudoku board:" << std::endl;
     
-    std::ifstream inputFile("in.txt");
+    std::ifstream inputFile("../in.txt");
 
     for (i = 0; i < SIZE;) {
         for (j = 0; j < SIZE;) {
